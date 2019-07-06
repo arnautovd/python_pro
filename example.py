@@ -2,12 +2,13 @@ from first_module import name, surname
 
 print(name + " " + surname)
 
-def getLetter(word, index):
-    return word[index]
+word = input("Твое слово: ")
 
-print(getLetter("hello", 1))
-print(getLetter("start", 2))
-print(getLetter("backup", 3))
+def getLetter(word):
+    index = input("Твой индекс: ")
+    try:
+        return word[int(index)]
+    except IndexError:
+        print("Словили ошибку")
 
-print("hello world")
-print(range(5))
+print(getLetter(word))
