@@ -2,8 +2,6 @@ from first_module import name, surname
 
 print(name + " " + surname)
 
-
-
 while True:
 
     word = input("Твое слово: ")
