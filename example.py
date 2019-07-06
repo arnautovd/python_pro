@@ -1,7 +1,7 @@
 print("hello world")
 print("new info")
-for x in "hello world":
-    print(x)
 
-name = "Dima"
-print(name[1])
+def getLetter(word, index):
+    return word[index]
+
+print(getLetter('hello', 1))
