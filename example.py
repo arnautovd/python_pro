@@ -2,9 +2,6 @@ from first_module import name
 
 print(name)
 
-print("hello world")
-print("new info")
-
 def getLetter(word, index):
     return word[index]
 
