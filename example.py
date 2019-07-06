@@ -6,3 +6,4 @@ def getLetter(word, index):
 
 print(getLetter("hello", 1))
 print(getLetter("start", 2))
+print(getLetter("backup", 3))
