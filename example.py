@@ -4,4 +4,4 @@ for x in "hello world":
     print(x)
 
 name = "Dima"
-print(name)
+print(name[1])
