@@ -7,4 +7,3 @@ def getLetter(word, index):
 print(getLetter("hello", 1))
 
 print("new line")
-print("again")
