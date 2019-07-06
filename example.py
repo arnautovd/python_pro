@@ -1,6 +1,6 @@
-from first_module import name
+from first_module import name, surname
 
-print(name)
+print(name + " " + surname)
 
 def getLetter(word, index):
     return word[index]
