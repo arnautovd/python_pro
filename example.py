@@ -14,3 +14,4 @@ while True:
             print("Словили ошибку")
 
     print(getLetter(word))
+
