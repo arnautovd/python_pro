@@ -8,3 +8,7 @@ def get_sum(a, b):
     '''
     return a + b
 print(get_sum(5, 10))
+
+a = input("Введите первое число: ")
+b = input("Введите второе число: ")
+print(get_sum(int(a), int(b)))
