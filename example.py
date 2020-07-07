@@ -3,4 +3,5 @@ import json
 with open("data.json") as f:
     data = json.load(f)
     
-print(data["homeTown"])
+names = [m["name"] for m in data["members"]]
+print(names)
