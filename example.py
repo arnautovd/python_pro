@@ -1,7 +1,13 @@
 import json
 
-with open("data.json") as f:
-    data = json.load(f)
+
+def get_data(file_data):
+
+
+    with open(file_data) as f:
+        data = json.load(f)
     
-names = [m["name"] for m in data["members"]]
-print(names)
+    names = [m["name"] for m in data["members"]]
+    print(names)
+
+get_data("data.json")
