@@ -12,4 +12,4 @@ def get_data(file_data):
 
 get_data("data.json")
 
-print("The end oth this line of code")
+print("The end of this line of code")
