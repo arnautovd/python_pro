@@ -17,3 +17,9 @@ headers = {
     "Content-Type": "application/json"
 }
 
+sites_endpoint = "intent/api/v1/site"
+
+site_response = requests.get(url=f"{base_url}{sites_endpoint}", headers=headers).json()
+
+print(json.dumps(site_response, indent=2))
+
